@@ -51,12 +51,12 @@ int main()
     vector_2d.push_back(vector2);
     
     cout << "Vector 1 size: " << vector1.size() << endl;
-    for (int i=0; i<vector1.size(); i++){
+    for (size_t i=0; i<vector1.size(); i++){
         cout << vector1.at(i) <<endl;
     }
   
     cout << "\nVector 2 size: " << vector2.size() << endl;  
-        for (int i=0; i<vector2.size(); i++){
+        for (size_t i=0; i<vector2.size(); i++){
         cout << vector2.at(i) << endl;
     }
 
